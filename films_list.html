@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sondiliy's Movie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/filmicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <section>
+        <div class="swiper-tooltip" id="swiper-tooltip"></div>
+        <div class="swiperContainer">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div onmouseover="kliknul(this, 0) " onmouseout="document.getElementById('swiper-tooltip').style.display='none'" class="swiper-slide img1">
+                        <span>Drama</span>
+                        <div>
+                            <h2>Реквием по мечте</h2>
+                        </div>
+                    </div>
+                    <div onmouseover="kliknul(this, 1)" class="swiper-slide img2">
+                        <span>Action</span>
+                        <div>
+                            <h2>Бойцовский клуб</h2>
+                        </div>
+                    </div>
+                    <div onmouseover="kliknul(this, 2)" class="swiper-slide img3">
+                        <span>Horror</span>
+                        <div>
+                            <h2>Оно</h2>
+                        </div>
+                    </div>
+                    <div onmouseover="kliknul(this, 3)" class="swiper-slide img4">
+                        <span>Comedy</span>
+                        <div>
+                            <h2>Один дома</h2>
+                        </div>
+                    </div>
+                    <div onmouseover="kliknul(this, 4)" class="swiper-slide img5">
+                        <span>Thriller</span>
+                        <div>
+                            <h2>Остров проклятых</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        </div>
+        
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <a href="index.html" class="rotate-to-main">На главную</a>
+    </section>
+    <script defer src="js/vanilla-tilt.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/jabascript.js"></script>
+</body>
