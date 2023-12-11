@@ -433,11 +433,11 @@ input[type="checkbox"] {
 .tryit {
     animation: fon 1.5s forwards;
     position: absolute;
-    padding: 10px 30px;
+    padding: 15px 30px;
     top: 75%;
     right: 40%;
     color: rgb(17, 17, 17);
-    font-size: 25px;
+    font-size: 21px;
     text-decoration: none;
     width: 20%;
     margin: auto;
